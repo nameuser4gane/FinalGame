@@ -2439,7 +2439,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ECO Guardian
+  m_Text: Forest of Echoes
 --- !u!222 &1577246681
 CanvasRenderer:
   m_ObjectHideFlags: 0
