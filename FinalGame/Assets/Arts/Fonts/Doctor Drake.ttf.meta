@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 968262296ad6540e5aa74b5b8d40467e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Doctor Drake
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: ad401e2cc068f485189a3961f38f2877, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
