@@ -261,7 +261,7 @@ MonoBehaviour:
   - Where am I...?
   - There must be someone else around here...
   - I'm pretty sure I can use the WASD or arrow keys to check out my surroundings...
-  typingSpeed: 0
+  typingSpeed: 0.03
   continueButton: {fileID: 1693792605}
   dialogPanel: {fileID: 661754672}
 --- !u!4 &105666792
