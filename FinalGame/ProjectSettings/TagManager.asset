@@ -14,11 +14,11 @@ TagManager:
   - 
   - 
   - 
+  - Spirit
   - 
+  - Fog
   - 
-  - 
-  - 
-  - 
+  - Torch
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Spirit
+    uniqueID: 907698417
+    locked: 0
+  - name: Fog
+    uniqueID: 1448245365
+    locked: 0
+  - name: Torch
+    uniqueID: 2562173631
+    locked: 0
+  - name: Spirit Eyes
+    uniqueID: 3361648287
     locked: 0
