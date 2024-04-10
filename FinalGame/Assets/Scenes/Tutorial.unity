@@ -264,6 +264,7 @@ MonoBehaviour:
   - I'm pretty sure I can use the WASD or arrow keys to check out my surroundings...
   typingSpeed: 0.03
   continueButton: {fileID: 1693792605}
+  skipButton: {fileID: 148024220}
   dialogPanel: {fileID: 661754672}
 --- !u!4 &105666792
 Transform:
@@ -364,7 +365,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 105666791}
         m_TargetAssemblyTypeName: DialogManager, Assembly-CSharp
-        m_MethodName: NextSentence
+        m_MethodName: SkipSentences
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
