@@ -3702,7 +3702,7 @@ GameObject:
   - component: {fileID: 2032412906}
   - component: {fileID: 2032412905}
   m_Layer: 0
-  m_Name: Fences
+  m_Name: GroundSolid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
