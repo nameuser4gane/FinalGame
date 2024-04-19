@@ -23,4 +23,8 @@ public class NewTriggerZone : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
+
+
+
 }
