@@ -18,13 +18,12 @@ public class SoundZone : MonoBehaviour
         // if the trigger zone is active...
         if (active && collision.gameObject.tag == "Player")
         {
+            soulSound.Play();
+            
             // deactivate the trigger zone
             active = false;
             
-            // Adds 1 to the score when the player enters the trigger zone
-            gameObject.SetActive(true);
-
-            soulSound.Play();
+            gameObject.SetActive(false);
         }
     }
 }

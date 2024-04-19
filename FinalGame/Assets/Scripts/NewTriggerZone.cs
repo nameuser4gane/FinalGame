@@ -4,28 +4,23 @@ using UnityEngine;
 
 public class NewTriggerZone : MonoBehaviour
 {
-    //create a variable to keep track of
-    //whether th trigger zone is active
+    // create a variable to keep track of
+    // whether the trigger zone is active
 
     bool active = true;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
         // if the trigger zone is active...
         if (active && collision.gameObject.tag == "Player")
         {
-            //deactivate the trigger zone
+            // deactivate the trigger zone
             active = false;
 
-
-
-            //Add 1 sto the core
+            // Adds 1 to the score
             // when the player enters the trigger zone
             ScoreManager.score++;
             gameObject.SetActive(false);
-
         }
     }
-
 }
