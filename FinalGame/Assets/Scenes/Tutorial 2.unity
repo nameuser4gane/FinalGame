@@ -922,6 +922,7 @@ GameObject:
   - component: {fileID: 454437789}
   - component: {fileID: 454437791}
   - component: {fileID: 454437790}
+  - component: {fileID: 454437792}
   m_Layer: 0
   m_Name: CircleC
   m_TagString: Untagged
@@ -1022,6 +1023,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &454437792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454437787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14cbd29761b124e82af840ab8cb89ee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulSound: {fileID: 8300000, guid: 688bd7ca2ab2c4ab3a43dbae99cd3928, type: 3}
 --- !u!1 &661754672
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,6 +1125,7 @@ GameObject:
   - component: {fileID: 717893752}
   - component: {fileID: 717893754}
   - component: {fileID: 717893753}
+  - component: {fileID: 717893755}
   m_Layer: 0
   m_Name: CircleA
   m_TagString: Untagged
@@ -1211,6 +1226,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &717893755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717893750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14cbd29761b124e82af840ab8cb89ee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulSound: {fileID: 8300000, guid: 688bd7ca2ab2c4ab3a43dbae99cd3928, type: 3}
 --- !u!1 &904467707
 GameObject:
   m_ObjectHideFlags: 0
@@ -4006,6 +4034,7 @@ GameObject:
   - component: {fileID: 1377063150}
   - component: {fileID: 1377063152}
   - component: {fileID: 1377063151}
+  - component: {fileID: 1377063153}
   m_Layer: 0
   m_Name: CircleB
   m_TagString: Untagged
@@ -4106,6 +4135,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &1377063153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377063148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14cbd29761b124e82af840ab8cb89ee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulSound: {fileID: 8300000, guid: 688bd7ca2ab2c4ab3a43dbae99cd3928, type: 3}
 --- !u!1 &1476850757
 GameObject:
   m_ObjectHideFlags: 0
@@ -4117,6 +4159,7 @@ GameObject:
   - component: {fileID: 1476850759}
   - component: {fileID: 1476850758}
   - component: {fileID: 1476850760}
+  - component: {fileID: 1476850761}
   m_Layer: 0
   m_Name: Souls
   m_TagString: Untagged
@@ -4169,6 +4212,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &1476850761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476850757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14cbd29761b124e82af840ab8cb89ee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulSound: {fileID: 8300000, guid: 688bd7ca2ab2c4ab3a43dbae99cd3928, type: 3}
 --- !u!1 &1693792605
 GameObject:
   m_ObjectHideFlags: 0
