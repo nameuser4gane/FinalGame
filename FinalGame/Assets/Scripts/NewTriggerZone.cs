@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
- 
+
 public class NewTriggerZone : MonoBehaviour
 {
     // create a variable to keep track of
