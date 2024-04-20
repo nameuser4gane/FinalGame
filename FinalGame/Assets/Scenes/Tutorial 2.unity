@@ -923,7 +923,6 @@ GameObject:
   - component: {fileID: 454437791}
   - component: {fileID: 454437790}
   - component: {fileID: 454437793}
-  - component: {fileID: 454437794}
   - component: {fileID: 454437792}
   m_Layer: 0
   m_Name: CircleC
@@ -1009,6 +1008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f46dfa8c64a4e0a9dbfc301a222a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soulSound: {fileID: 0}
 --- !u!58 &454437791
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1037,7 +1037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0619248e089f43ecbd04d038df80614, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectionSoundEffect: {fileID: 0}
+  collectionSoundEffect: {fileID: 454437793}
 --- !u!82 &454437793
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1134,18 +1134,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &454437794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 454437787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b91d7d912130344c4bdcea154933e8a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &661754672
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,7 +1224,6 @@ GameObject:
   - component: {fileID: 717893754}
   - component: {fileID: 717893753}
   - component: {fileID: 717893756}
-  - component: {fileID: 717893757}
   - component: {fileID: 717893755}
   m_Layer: 0
   m_Name: CircleA
@@ -1322,6 +1309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f46dfa8c64a4e0a9dbfc301a222a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soulSound: {fileID: 0}
 --- !u!58 &717893754
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1447,18 +1435,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &717893757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 717893750}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b91d7d912130344c4bdcea154933e8a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &904467707
 GameObject:
   m_ObjectHideFlags: 0
@@ -4255,7 +4231,6 @@ GameObject:
   - component: {fileID: 1377063152}
   - component: {fileID: 1377063151}
   - component: {fileID: 1377063154}
-  - component: {fileID: 1377063155}
   - component: {fileID: 1377063153}
   m_Layer: 0
   m_Name: CircleB
@@ -4341,6 +4316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f46dfa8c64a4e0a9dbfc301a222a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soulSound: {fileID: 0}
 --- !u!58 &1377063152
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4369,7 +4345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0619248e089f43ecbd04d038df80614, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectionSoundEffect: {fileID: 0}
+  collectionSoundEffect: {fileID: 1377063154}
 --- !u!82 &1377063154
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4466,18 +4442,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1377063155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377063148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b91d7d912130344c4bdcea154933e8a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1476850757
 GameObject:
   m_ObjectHideFlags: 0
@@ -4490,8 +4454,6 @@ GameObject:
   - component: {fileID: 1476850758}
   - component: {fileID: 1476850760}
   - component: {fileID: 1476850762}
-  - component: {fileID: 1476850763}
-  - component: {fileID: 1476850761}
   m_Layer: 0
   m_Name: Souls
   m_TagString: Untagged
@@ -4511,6 +4473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f46dfa8c64a4e0a9dbfc301a222a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soulSound: {fileID: 0}
 --- !u!4 &1476850759
 Transform:
   m_ObjectHideFlags: 0
@@ -4544,19 +4507,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1476850761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476850757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0619248e089f43ecbd04d038df80614, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collectionSoundEffect: {fileID: 0}
 --- !u!82 &1476850762
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4653,18 +4603,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1476850763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476850757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b91d7d912130344c4bdcea154933e8a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1693792605
 GameObject:
   m_ObjectHideFlags: 0
