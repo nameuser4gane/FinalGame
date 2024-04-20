@@ -1008,7 +1008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f46dfa8c64a4e0a9dbfc301a222a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soulSound: {fileID: 0}
+  soulSound: {fileID: 8300000, guid: 688bd7ca2ab2c4ab3a43dbae99cd3928, type: 3}
 --- !u!58 &454437791
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1309,7 +1309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f46dfa8c64a4e0a9dbfc301a222a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soulSound: {fileID: 0}
+  soulSound: {fileID: 8300000, guid: 688bd7ca2ab2c4ab3a43dbae99cd3928, type: 3}
 --- !u!58 &717893754
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4316,7 +4316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f46dfa8c64a4e0a9dbfc301a222a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soulSound: {fileID: 0}
+  soulSound: {fileID: 8300000, guid: 688bd7ca2ab2c4ab3a43dbae99cd3928, type: 3}
 --- !u!58 &1377063152
 CircleCollider2D:
   m_ObjectHideFlags: 0
