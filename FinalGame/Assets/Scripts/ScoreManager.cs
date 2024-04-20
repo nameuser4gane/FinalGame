@@ -29,9 +29,14 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!gameOver)
+        if (!gameOver && score < 3)
         {
-            textbox.text = "Souls: " + score;
+            textbox.text = "Souls: " + score + "/3";
+        }
+        
+        if (!gameOver && score == 3)
+        {
+            textbox.text = "All souls freed!";
         }
         
         if (score >= 3)
