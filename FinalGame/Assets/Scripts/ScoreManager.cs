@@ -39,7 +39,7 @@ public class ScoreManager : MonoBehaviour
             textbox.text = "All souls freed!";
         }
         
-        if (score >= 3)
+        /*if (score >= 3)
         {
             won = true;
             gameOver = true;
@@ -53,6 +53,6 @@ public class ScoreManager : MonoBehaviour
             else
             {
             }
-        }
+        }*/
     }
 }
