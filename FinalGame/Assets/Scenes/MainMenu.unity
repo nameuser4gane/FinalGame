@@ -694,8 +694,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -260}
-  m_SizeDelta: {x: 550, y: 550}
+  m_AnchoredPosition: {x: 0, y: -220}
+  m_SizeDelta: {x: 550, y: 650}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &424864963
 MonoBehaviour:
@@ -731,7 +731,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Victor Aristakessian\u200B\nStefanos Charalampous\u200B\nUlises Flores\u200B\nJacob
-    Little\u200B\nTyler Ptaszkowski\u200B\n\n\nMusic & SFX Provided By Pixabay"
+    Little\u200B\nTyler Ptaszkowski\u200B\n\n\nMusic & SFX Provided By Pixabay, Animations
+    & Tilesets From Unity Asset Store"
 --- !u!222 &424864964
 CanvasRenderer:
   m_ObjectHideFlags: 0
