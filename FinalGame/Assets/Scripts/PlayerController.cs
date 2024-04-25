@@ -11,12 +11,14 @@ public class PlayerController : MonoBehaviour
 
     Vector2 movementInput;
     Rigidbody2D rb;
+    Animator animator;
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>(); // corrected typo here
     }
 
     private void FixedUpdate()
@@ -24,19 +26,47 @@ public class PlayerController : MonoBehaviour
         // If movement input is not 0, try to move
         if (movementInput != Vector2.zero)
         {
-            int count = rb.Cast(
-                movementInput,
-                movementFilter,
-                castCollisions,
-                moveSpeed * Time.fixedDeltaTime + collisionOffset);
-            if (count == 0)
+            bool success = TryMove(movementInput);
+
+            if(!success)
             {
-                rb.MovePosition(rb.position + movementInput * moveSpeed * Time.fixedDeltaTime);
+
+                success = TryMove(new Vector2(movementInput.x, 0));
+
+                if(!success)
+                {
+                    success = TryMove(new Vector2(0, movementInput.y)); // corrected typo here
+                }
+
+                animator.SetBool("isMoving", success);
+
+            }
+            else
+            {
+                animator.SetBool("isMoving", false);
             }
         }
     }
 
+    private bool TryMove(Vector2 direction)
+    {
+
+        int count = rb.Cast(
+            direction,
+            movementFilter,
+            castCollisions,
+            moveSpeed * Time.fixedDeltaTime + collisionOffset);
+        if (count == 0)
+        {
+            rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
     void OnMove(InputValue movementValue) {
-        movementInput = movementValue.Get<Vector2>();
+        movementInput = movementValue.Get<Vector2>(); // corrected typo here
     }
 }
