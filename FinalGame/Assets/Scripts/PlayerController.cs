@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>(); // corrected typo here
+        animator = GetComponent<Animator>(); 
     }
 
     private void FixedUpdate()
@@ -35,16 +35,17 @@ public class PlayerController : MonoBehaviour
 
                 if(!success)
                 {
-                    success = TryMove(new Vector2(0, movementInput.y)); // corrected typo here
+                    success = TryMove(new Vector2(0, movementInput.y)); 
                 }
 
                 animator.SetBool("isMoving", success);
 
             }
-            else
-            {
-                animator.SetBool("isMoving", false);
-            }
+            
+        }
+        else
+        {
+            animator.SetBool("isMoving", false);
         }
     }
 
@@ -67,6 +68,6 @@ public class PlayerController : MonoBehaviour
     }
 
     void OnMove(InputValue movementValue) {
-        movementInput = movementValue.Get<Vector2>(); // corrected typo here
+        movementInput = movementValue.Get<Vector2>(); 
     }
 }
