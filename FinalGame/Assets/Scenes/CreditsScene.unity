@@ -1049,8 +1049,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Music & SFX Provided By Pixabay, Animations & Tilesets From Unity Asset
-    Store
+  m_Text: Music & SFX Provided By Pixabay, Sprites, Animations & Tilesets From Unity
+    Asset Store
 --- !u!222 &2134015842
 CanvasRenderer:
   m_ObjectHideFlags: 0

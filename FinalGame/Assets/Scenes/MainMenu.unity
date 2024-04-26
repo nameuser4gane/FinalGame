@@ -731,8 +731,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Victor Aristakessian\u200B\nStefanos Charalampous\u200B\nUlises Flores\u200B\nJacob
-    Little\u200B\nTyler Ptaszkowski\u200B\n\n\nMusic & SFX Provided By Pixabay, Animations
-    & Tilesets From Unity Asset Store"
+    Little\u200B\nTyler Ptaszkowski\u200B\n\n\nMusic & SFX Provided By Pixabay, Sprites,
+    Animations & Tilesets From Unity Asset Store"
 --- !u!222 &424864964
 CanvasRenderer:
   m_ObjectHideFlags: 0
