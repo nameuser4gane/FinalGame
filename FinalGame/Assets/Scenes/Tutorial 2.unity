@@ -1349,6 +1349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textbox: {fileID: 360883586}
+  soulsToCollect: 3
 --- !u!1 &503626397
 GameObject:
   m_ObjectHideFlags: 3
@@ -1751,6 +1752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textbox: {fileID: 360883586}
+  soulsToCollect: 3
 --- !u!1 &784203646
 GameObject:
   m_ObjectHideFlags: 0
@@ -4908,6 +4910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textbox: {fileID: 360883586}
+  soulsToCollect: 3
 --- !u!1 &1476850757
 GameObject:
   m_ObjectHideFlags: 0
@@ -4987,6 +4990,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textbox: {fileID: 360883586}
+  soulsToCollect: 3
 --- !u!82 &1476850762
 AudioSource:
   m_ObjectHideFlags: 0

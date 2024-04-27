@@ -6,53 +6,30 @@ using UnityEngine.SceneManagement;
 
 public class ScoreManager : MonoBehaviour
 {
-    
-    // notice public static variables
-    // can be accessed from any script
-    // but cannot be seen in the inspector
     public static bool gameOver;
     public static bool won;
     public static int score;
-    
+
     public TMP_Text textbox;
-    
-    // public int ScoreToWin;
-    
-    // Start is called before the first frame update
+    public int soulsToCollect; // Number of souls to collect
+
     void Start()
     {
         gameOver = false;
         won = false;
         score = 0;
     }
-    
-    // Update is called once per frame
+
     void Update()
     {
-        if (!gameOver && score < 3)
+        if (!gameOver && score < soulsToCollect)
         {
-            textbox.text = "Souls: " + score + "/3";
+            textbox.text = "Souls: " + score + "/" + soulsToCollect;
         }
-        
-        if (!gameOver && score == 3)
+
+        if (!gameOver && score == soulsToCollect)
         {
             textbox.text = "All souls freed!";
         }
-        
-        /*if (score >= 3)
-        {
-            won = true;
-            gameOver = true;
-        }
-        
-        if (gameOver)
-        {
-            if (won)
-            {
-            }
-            else
-            {
-            }
-        }*/
     }
 }
