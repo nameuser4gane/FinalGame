@@ -6989,6 +6989,10 @@ PrefabInstance:
       value: Square
       objectReference: {fileID: 0}
     - target: {fileID: 519746508162016974, guid: 81646a24c78854693ac37c9397122d81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 519746508162016974, guid: 81646a24c78854693ac37c9397122d81, type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
