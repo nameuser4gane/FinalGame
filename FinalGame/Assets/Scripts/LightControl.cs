@@ -14,13 +14,10 @@ public class LightControl : MonoBehaviour
 
     void Start()
     {
-
-
         timeUp = false;
 
         remainTime = 60f;
         startingTime = 60f;
-
 
     }
 
@@ -29,7 +26,7 @@ public class LightControl : MonoBehaviour
     {
         if (remainTime > 0)
         {
-            remainTime -= Time.deltaTime;
+         //   remainTime -= Time.deltaTime;
         }
         else
         {
@@ -37,11 +34,16 @@ public class LightControl : MonoBehaviour
             //setgameOver = true
         }
 
-        GetComponent<Light2D>().intensity = (remainTime / startingTime) + .2f;
+        GetComponent<Light2D>().intensity = (remainTime / startingTime); // + .2f;
 
 
 
-        GetComponent<Light2D>().pointLightInnerRadius = ((remainTime / startingTime) * 2) + .1f;
-        GetComponent<Light2D>().pointLightOuterRadius = ((remainTime / startingTime) * 3) + .5f;
+        GetComponent<Light2D>().pointLightInnerRadius = ((remainTime / startingTime) * 3);//1); //+ .1f;
+        GetComponent<Light2D>().pointLightOuterRadius = ((remainTime / startingTime) * 6);//3); //+ .5f;
+    }
+
+    public void AddTime(float time)
+    {
+        remainTime += time;
     }
 }
