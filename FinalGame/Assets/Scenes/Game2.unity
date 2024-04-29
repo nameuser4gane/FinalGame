@@ -1126,7 +1126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10c14a7224c0145269e30876620d0096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 4
+  sceneBuildIndex: 6
 --- !u!58 &319412982
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5246,7 +5246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10c14a7224c0145269e30876620d0096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 4
+  sceneBuildIndex: 6
 --- !u!58 &681019107
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5701,7 +5701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10c14a7224c0145269e30876620d0096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 4
+  sceneBuildIndex: 6
 --- !u!58 &759137490
 CircleCollider2D:
   m_ObjectHideFlags: 0
