@@ -14,6 +14,6 @@ public class Resizer : MonoBehaviour
         scale -= 0.001f;
         transform.localScale = new Vector2(scale, scale);
         if (scale <= 0.05f)
-            SceneManager.LoadScene("");
+            SceneManager.LoadScene("GameOverScene");
     }
 }
