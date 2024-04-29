@@ -970,6 +970,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8066208967331801650, guid: d2a29552d07ae4d1eb210250994b1837, type: 3}
+      propertyPath: swordAttack
+      value: 
+      objectReference: {fileID: 2007318658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2a29552d07ae4d1eb210250994b1837, type: 3}
 --- !u!4 &301895139 stripped
@@ -5286,6 +5290,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2007318658 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8863786237282203351, guid: d2a29552d07ae4d1eb210250994b1837, type: 3}
+  m_PrefabInstance: {fileID: 301895138}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90f46423033340c5933f8285b1b037d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2032412903
 GameObject:
   m_ObjectHideFlags: 0

@@ -86,7 +86,7 @@ public class PlayerController : MonoBehaviour
         animator.SetTrigger("swordAttack");
     }
 
-    public void SwordAttack() {
+    /*public void SwordAttack() {
         LockMovement();
 
         if(spriteRenderer.flipX == true){
@@ -95,6 +95,7 @@ public class PlayerController : MonoBehaviour
             swordAttack.AttackRight();
         }
     }
+    */
 
     public void EndSwordAttack() {
         UnlockMovement();
