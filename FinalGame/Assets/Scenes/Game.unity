@@ -4187,10 +4187,11 @@ MonoBehaviour:
   - Now I remember...
   - I've been sent to rescue these souls from the Eradicator of Light.
   - It's up to me...and only me...to free as many souls as possible!
-  - Of course, I'll also need to deal with the Eradicator's goons...
-  - If I come across one, I can just use the F key to swing my sword at them!
+  - Of course, I'll also need to deal with the Eradicator's goons, as well as any
+    other obstacles that might get in my way...
   - Once I'm ready, I should find and step into the light to free myself and the
     souls.
+  - The fate of the universe depends on me!
   - The fate of the universe depends on me!
   typingSpeed: 0.03
   continueButton: {fileID: 10110538}
