@@ -9788,7 +9788,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769424415}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd63663bb617fec4baad1b507d371247, type: 3}
   m_Name: 
@@ -9824,8 +9824,8 @@ MonoBehaviour:
   m_Mesh: {fileID: 740465209}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 100
-  m_PointLightOuterRadius: 100
+  m_PointLightInnerRadius: 2.5
+  m_PointLightOuterRadius: 4.3
   m_PointLightDistance: 3
   m_PointLightQuality: 1
   m_ShapeLightParametricSides: 5
