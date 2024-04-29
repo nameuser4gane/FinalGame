@@ -4192,7 +4192,6 @@ MonoBehaviour:
   - Once I'm ready, I should find and step into the light to free myself and the
     souls.
   - The fate of the universe depends on me!
-  - The fate of the universe depends on me!
   typingSpeed: 0.03
   continueButton: {fileID: 10110538}
   skipButton: {fileID: 126674421}
