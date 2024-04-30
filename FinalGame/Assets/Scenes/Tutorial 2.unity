@@ -920,7 +920,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2027795694666410667, guid: d2a29552d07ae4d1eb210250994b1837, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2027795694666410667, guid: d2a29552d07ae4d1eb210250994b1837, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4963,7 +4963,7 @@ Transform:
   - {fileID: 1377063149}
   - {fileID: 454437788}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1476850760
 CircleCollider2D:
