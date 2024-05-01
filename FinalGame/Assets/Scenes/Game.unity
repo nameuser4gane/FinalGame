@@ -4560,7 +4560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891090, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_Name
-      value: PickUp_LightAttached (3)
+      value: PickUp_LightAttached (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891093, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: remainTime
