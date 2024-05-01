@@ -488,12 +488,24 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.8
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.38
+      value: 11.1
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4238,6 +4250,8 @@ MonoBehaviour:
   - It's up to me...and only me..to free as many souls as possible!
   - Of course, I'll also need to deal with the Eradicator's goons, as well as any
     other obstacles that might get in my way...
+  - And if I happen to find a lantern, I should pick it up to get rid of some of
+    this darkness!
   - Once I'm ready, I should find and step into the light to free myself and the
     souls.
   - The fate of the universe depends on me!
@@ -4557,12 +4571,24 @@ PrefabInstance:
       value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.86
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.59
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21456,12 +21482,24 @@ PrefabInstance:
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.46
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.21
+      value: 8.75
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_LocalPosition.z
