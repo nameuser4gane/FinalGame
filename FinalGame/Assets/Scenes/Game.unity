@@ -489,11 +489,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.96
+      value: 4.8
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9
+      value: 9.38
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4529,75 +4529,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2027795694666410667, guid: d2a29552d07ae4d1eb210250994b1837, type: 3}
   m_PrefabInstance: {fileID: 1295700053}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1311550529
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1227437397, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 1571854741}
-    - target: {fileID: 1227437397, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
-      propertyPath: m_FalloffIntensity
-      value: 0.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 5990146167559891090, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
-      propertyPath: m_Name
-      value: PickUp_LightAttached (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5990146167559891093, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
-      propertyPath: remainTime
-      value: 
-      objectReference: {fileID: 1769424416}
-    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.638
-      objectReference: {fileID: 0}
-    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 6.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
 --- !u!1001 &1354138840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4623,15 +4554,15 @@ PrefabInstance:
       objectReference: {fileID: 1769424416}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.234
+      value: -5.86
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.316
+      value: 10.59
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891094, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5151,8 +5082,8 @@ MonoBehaviour:
   m_Mesh: {fileID: 740465209}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 3.83
-  m_PointLightOuterRadius: 8.29
+  m_PointLightInnerRadius: 5.16
+  m_PointLightOuterRadius: 12.57
   m_PointLightDistance: 3
   m_PointLightQuality: 1
   m_ShapeLightParametricSides: 5
@@ -21511,6 +21442,10 @@ PrefabInstance:
     - target: {fileID: 5990146167559891090, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: m_Name
       value: PickUp_LightAttached
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990146167559891093, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
+      propertyPath: delay
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5990146167559891093, guid: f88d44587ad3027438cd5dca2e0e8b48, type: 3}
       propertyPath: remainTime

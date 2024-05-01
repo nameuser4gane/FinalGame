@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class NewTriggerZone : MonoBehaviour
 {
@@ -31,7 +32,7 @@ public class NewTriggerZone : MonoBehaviour
             this.gameObject.GetComponent<Renderer>().material.color = new Color(250, 174, 90, 0f);
             
             // Destroys once the sound has played
-            Destroy(gameObject, 3);
+            Destroy(gameObject, 0);
             
             // Add 1 to the score when the player enters the trigger zone
             ScoreManager.score++;

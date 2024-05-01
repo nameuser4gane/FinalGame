@@ -38,8 +38,8 @@ public class LightControl : MonoBehaviour
 
 
 
-        GetComponent<Light2D>().pointLightInnerRadius = ((remainTime / startingTime) * 3);//1); //+ .1f;
-        GetComponent<Light2D>().pointLightOuterRadius = ((remainTime / startingTime) * 6);//3); //+ .5f;
+        GetComponent<Light2D>().pointLightInnerRadius = ((remainTime / startingTime) * 2);//1); //+ .1f;
+        GetComponent<Light2D>().pointLightOuterRadius = ((remainTime / startingTime) * 4);//3); //+ .5f;
     }
 
     public void AddTime(float time)

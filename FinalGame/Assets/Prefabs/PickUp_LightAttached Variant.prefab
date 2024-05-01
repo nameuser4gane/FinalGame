@@ -82,7 +82,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5701028781457155776, guid: d5e1a27510f8d1a41abb99503d19edd2, type: 3}
       propertyPath: delay
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5701028781457155776, guid: d5e1a27510f8d1a41abb99503d19edd2, type: 3}
       propertyPath: remainTime
@@ -150,7 +150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5701028781457155783, guid: d5e1a27510f8d1a41abb99503d19edd2, type: 3}
       propertyPath: m_Name
-      value: PickUp_LightAttached
+      value: PickUp_LightAttached Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5e1a27510f8d1a41abb99503d19edd2, type: 3}
