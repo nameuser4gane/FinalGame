@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
         set {
             health = value;
 
-            if(health <= 0) {
+            if (health <= 0) {
                 Defeated();
             }
         }
@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public void Defeated(){
+    public void Defeated() {
         animator.SetTrigger("Defeated");
     }
 
