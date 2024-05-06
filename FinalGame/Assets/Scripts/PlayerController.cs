@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
     public SwordAttack swordAttack;
+    public DialogManager dialogManager;
 
     Vector2 movementInput;
     SpriteRenderer spriteRenderer;
@@ -26,7 +27,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
-
+    
     private void FixedUpdate() {
         if(canMove) {
             // If movement input is not 0, try to move
