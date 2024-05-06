@@ -16,7 +16,7 @@ public class GameOver : MonoBehaviour
 
     public void RestartButton()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Game2");
     }
 
     public void ExitButton()
