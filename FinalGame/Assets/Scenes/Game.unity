@@ -2476,6 +2476,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2255476004003440112, guid: d2a29552d07ae4d1eb210250994b1837, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 6100711314532174726, guid: d2a29552d07ae4d1eb210250994b1837, type: 3}
       propertyPath: m_Name
       value: Player 1
@@ -3097,6 +3101,7 @@ MonoBehaviour:
   remainTime: 0
   startingTime: 0
   timeUp: 0
+  sceneBuildIndex: 6
 --- !u!114 &1769424417
 MonoBehaviour:
   m_ObjectHideFlags: 0

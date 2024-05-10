@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LightControl : MonoBehaviour
 {
@@ -12,12 +14,17 @@ public class LightControl : MonoBehaviour
 
     public bool timeUp;
 
+
+    public int sceneBuildIndex;
+
     void Start()
     {
         timeUp = false;
 
         remainTime = 60f;
         startingTime = 60f;
+
+       
 
     }
 
@@ -27,10 +34,16 @@ public class LightControl : MonoBehaviour
         if (remainTime > 0)
         {
             remainTime -= Time.deltaTime;
+
+            
         }
         else
         {
             timeUp = true;
+            print("Switching Scene to " + sceneBuildIndex);
+            SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
+
+
             //setgameOver = true
         }
 
@@ -40,6 +53,9 @@ public class LightControl : MonoBehaviour
 
         GetComponent<Light2D>().pointLightInnerRadius = ((remainTime / startingTime) * 2) + .1f;
         GetComponent<Light2D>().pointLightOuterRadius = ((remainTime / startingTime) * 4) + .5f;
+
+
+
     }
 
     public void AddTime(float time)
@@ -47,6 +63,7 @@ public class LightControl : MonoBehaviour
         if (remainTime < 60)
         {
             remainTime += time;
+            
         }
     }
 }
