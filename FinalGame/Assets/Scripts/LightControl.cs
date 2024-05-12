@@ -66,4 +66,11 @@ public class LightControl : MonoBehaviour
             
         }
     }
+    public void SubtractTime(float time)
+    {
+        
+            remainTime -= time;
+
+        
+    }
 }
