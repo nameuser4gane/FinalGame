@@ -9,6 +9,9 @@ public class SoulCollector : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        collectionSoundEffect.Play();
+        if (collectionSoundEffect != null && collectionSoundEffect.enabled)
+                {
+                    collectionSoundEffect.Play();
+                }
     }
 }
