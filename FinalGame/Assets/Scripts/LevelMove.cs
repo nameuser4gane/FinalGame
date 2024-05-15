@@ -7,12 +7,13 @@ public class LevelMove : MonoBehaviour
 {
 
     public int sceneBuildIndex;
+    public int minScore = 0;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         print("Trigger Entered");
 
-        if (other.tag == "Player")
+        if (other.tag == "Player" && ScoreManager.score >= minScore)
         {
 
             print("Switching Scene to " + sceneBuildIndex);

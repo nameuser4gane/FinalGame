@@ -407,6 +407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 6
+  minScore: 0
 --- !u!58 &78919492
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1127,6 +1128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 6
+  minScore: 0
 --- !u!58 &319412982
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1425,6 +1427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 4
+  minScore: 8
 --- !u!61 &426753527
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5884,6 +5887,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 6
+  minScore: 0
 --- !u!58 &681019107
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6032,6 +6036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 6
+  minScore: 0
 --- !u!58 &718857310
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6339,6 +6344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 6
+  minScore: 0
 --- !u!58 &759137490
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6944,6 +6950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 6
+  minScore: 0
 --- !u!58 &903741243
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7329,6 +7336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 6
+  minScore: 0
 --- !u!58 &964874150
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8353,6 +8361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 6
+  minScore: 0
 --- !u!58 &1202408153
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8677,6 +8686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 6
+  minScore: 0
 --- !u!58 &1248773787
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8738,6 +8748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 6
+  minScore: 0
 --- !u!58 &1251531565
 CircleCollider2D:
   m_ObjectHideFlags: 0
